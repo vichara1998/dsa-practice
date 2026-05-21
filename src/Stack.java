@@ -21,4 +21,9 @@ public class Stack {
             temp=temp.next;
         }
     }
+    public void pop(){
+        if(top != null){
+            top=top.next;
+        }
+    }
 }
